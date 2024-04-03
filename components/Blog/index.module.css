@@ -1,0 +1,23 @@
+.bg {
+  position: absolute;
+  width: 100dvw;
+  pointer-events: none;
+  z-index: -1;
+}
+
+.image img {
+  display: block;
+}
+
+.input {
+}
+
+.input input {
+  background: var(--body-second);
+  font-weight: 700;
+}
+
+.input input::placeholder {
+  color: var(--mantine-color-dimmed);
+  font-weight: 400;
+}
